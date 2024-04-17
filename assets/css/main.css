@@ -48,13 +48,8 @@ footer {
     margin-top: 15px;
 }
 
-
-
 /* Mobile Devices */
 @media (max-width: 768px) {
-    body {
-        background-color: red;
-    }
     input,
     p,
     a {
@@ -77,9 +72,6 @@ footer {
 
 /* Tablets*/
 @media (min-width: 769px) and (max-width: 1024px) {
-    body {
-        background-color: green;
-    }
     input,
     p,
     a {
@@ -101,9 +93,6 @@ footer {
 
 /* Desktops*/
 @media (min-width: 1025px) {
-    body {
-        background-color: purple;
-    }
     input,
     p,
     a {
