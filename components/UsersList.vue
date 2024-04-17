@@ -13,8 +13,8 @@
     </AwesomeSection>
 </template>
 
-<!-- USE WHEN SSR -->
-<script setup>
+<!-- USE FOR SERVER SIDE RENDER -->
+<!-- <script setup>
 import { useAsyncData } from 'nuxt/app'
 
 const search = ref('')
@@ -32,12 +32,8 @@ const { data: users } = useAsyncData(() =>
         res.json()
     )
 )
-</script>
+</script> -->
 
-
-<!-- USE WHEN CLIENT SIDE RENDERING -->
-
-<!--
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 
@@ -54,4 +50,4 @@ onMounted(async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/users')
     users.value = await response.json()
 })
-</script> -->
+</script>
